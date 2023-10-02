@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=yolov8x.yaml data=data.yaml epochs=1000 batch=16

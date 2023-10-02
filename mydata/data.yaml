@@ -1,0 +1,13 @@
+train: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/train/images
+val: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/valid/images
+test: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/test/images
+
+nc: 5
+names: ['Deframe', 'Dent', 'Hole', 'Minor-Dent', 'Rust']
+
+roboflow:
+  workspace: project-gvpak
+  project: container-damage-detection-uekkr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-gvpak/container-damage-detection-uekkr/dataset/2
