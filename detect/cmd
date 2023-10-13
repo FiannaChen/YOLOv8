@@ -1,1 +1,28 @@
-yolo task=detect mode=train model=yolov8x.yaml data=data.yaml epochs=1000 batch=16
+# yolo task=detect mode=train model=yolov8s.yaml data=data.yaml epochs=10 batch=8
+# #后台运行并输出日志
+# nohup yolo task=detect mode=train model=yolov8s.yaml data=data.yaml epochs=10 batch=8 > out 2>&1
+# #杀掉后台进程
+# ps aux | grep  nohup yolo task=detect mode=train model=yolov8s.yaml data=data.yaml epochs=10 batch=8 > out 2>&1
+# kill pid
+
+# #创建虚拟环境
+# pip install virtualenv
+#pip list
+# cd /path/to/your/project
+# virtualenv venv
+# source venv/bin/activate
+# pip install package_name
+# deactivate
+
+# #Ubuntu上安装NVIDIA显卡驱动：
+# #添加库
+# sudo add-apt-repository ppa:graphics-drivers/ppa
+# sudo apt update
+# #查看驱动版本
+# ubuntu-drivers list
+# #安装推荐版本
+# sudo ubuntu-drivers autoinstall
+# #特定版本安装
+# sudo apt install nvidia-driver-版本号
+# #重启
+# sudo reboot

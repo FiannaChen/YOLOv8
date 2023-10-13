@@ -1,9 +1,10 @@
-train: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/train/images
-val: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/valid/images
-test: /Users/fia/Code/YOLOv8/YOLOv8/ultralytics/mydata/test/images
+train: /root/YOLOv8/mydata/train
+val: /root/YOLOv8/mydata/valid
+test: /root/YOLOv8/mydata/testes
 
 nc: 5
 names: ['Deframe', 'Dent', 'Hole', 'Minor-Dent', 'Rust']
+
 
 roboflow:
   workspace: project-gvpak
